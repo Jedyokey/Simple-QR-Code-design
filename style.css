@@ -1,0 +1,44 @@
+/***CSS goes here!***/
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(212, 45%, 89%);
+}
+.background {
+    background-color: hsl(212, 45%, 89%);
+    width: 100%;
+    margin-top: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 4px 8px 2px lightgray;
+}
+.content {
+    width: 300px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+.content img {
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.content img:hover {
+    cursor: pointer;
+}
+.content p:first-of-type {
+    font-weight: 700;
+    font-family: outfit;
+    text-align: center;
+    font-size: 15px;
+}
+.content p:last-of-type {
+    font-weight: 400;
+    font-family: outfit;
+    text-align: center;
+    font-size: 15px;
+    color: hsl(218, 44%, 22%);
+}
